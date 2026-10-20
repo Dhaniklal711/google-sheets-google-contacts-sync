@@ -20,7 +20,7 @@ Save the script and run the synchronization functions.
 Test both synchronization directions using sample contacts.
 Verify that contact details are correctly transferred and duplicates are handled appropriately.
 3. Source Code
-GitHub Repository: [Insert your GitHub repository link here]
+GitHub Repository: [https://github.com/Dhaniklal711/google-sheets-google-contacts-sync]
 The repository contains the source code, configuration instructions, and documentation required to set up and run the synchronization solution.
 4. Demo Video
 Demo Video Link: [Insert your Loom or screen recording link here]
