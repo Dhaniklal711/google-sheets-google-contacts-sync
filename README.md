@@ -22,11 +22,12 @@ Verify that contact details are correctly transferred and duplicates are handled
 3. Source Code
 GitHub Repository: [https://github.com/Dhaniklal711/google-sheets-google-contacts-sync]
 The repository contains the source code, configuration instructions, and documentation required to set up and run the synchronization solution.
-4. Demo Video
+4. Google Sheet Link- https://docs.google.com/spreadsheets/d/1dgZ95MPm2izzz4KkHnVjPKDcEHlTNLktLJFdmyeY7ZQ/edit?usp=sharing
+5. Demo Video
 Demo Video Link: [https://drive.google.com/file/d/1-k-BZCXMZdgbAOG3FOTzSVX8njHLcuIi/view?usp=sharing]
 The demonstration covers the following scenarios:
 Google Sheets → Google Contacts: Add a contact to Google Sheets, run the synchronization, and verify that the contact appears in Google Contacts.
 Google Contacts → Google Sheets: Add or update a contact in Google Contacts, run the synchronization, and verify that the details appear correctly in Google Sheets.
-5. Conclusion
+6. Conclusion
 This project demonstrates a two-way contact synchronization workflow that reduces manual data entry and helps maintain consistent contact information across Google Sheets and Google Contacts. The implementation can be extended with automatic triggers, error handling, and additional duplicate-detection rules.
 
