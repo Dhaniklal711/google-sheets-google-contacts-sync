@@ -46,7 +46,7 @@ google-sheets-google-contacts-sync/
 
 ## Demo Video
 
-**Demo Link:** Add your Loom or screen-recording URL here.
+**Demo Link:** https://drive.google.com/file/d/1-k-BZCXMZdgbAOG3FOTzSVX8njHLcuIi/view?usp=sharing.
 
 The demonstration should show both synchronization directions.
 
