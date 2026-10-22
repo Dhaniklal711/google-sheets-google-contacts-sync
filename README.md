@@ -1,33 +1,59 @@
-# google-sheets-google-contacts-sync
-A Google Apps Script project that synchronizes contact information between Google Sheets and Google Contacts. It automates contact management, reduces manual data entry, and helps maintain consistent records across both platforms.
+# Google Sheets ↔ Google Contacts Synchronization
 
+## Project Overview
 
+This project aims to synchronize contact information between Google Sheets and Google Contacts using Google Apps Script and the Google People API.
 
-Google Sheets ↔ Google Contacts Synchronization
-1. Approach
-I developed a two-way synchronization solution between Google Sheets and Google Contacts using Google Apps Script and Google APIs. The objective is to keep contact information consistent across both platforms.
-The solution supports:
-Google Sheets → Google Contacts: New or updated contacts in the spreadsheet are synchronized with Google Contacts.
-Google Contacts → Google Sheets: Contact information from Google Contacts is imported into the spreadsheet.
-Duplicate Handling: Existing contacts are matched using unique identifiers or email addresses where available to minimize duplicate entries.
-Data Consistency: Contact fields such as name, email address, phone number, and organization are synchronized.
-2. Setup Instructions
-Create a Google Sheet with columns for  Contact ID, Name,  Contact Number, and Last Synced.
-Open Extensions → Apps Script in Google Sheets.
-Add the synchronization source code to the Apps Script editor.
-Configure the required Google permissions and authorize access to the spreadsheet and contacts.
-Save the script and run the synchronization functions.
-Test both synchronization directions using sample contacts.
-Verify that contact details are correctly transferred and duplicates are handled appropriately.
-3. Source Code
-GitHub Repository: [https://github.com/Dhaniklal711/google-sheets-google-contacts-sync]
-The repository contains the source code, configuration instructions, and documentation required to set up and run the synchronization solution.
-4. Google Sheet Link- https://docs.google.com/spreadsheets/d/1dgZ95MPm2izzz4KkHnVjPKDcEHlTNLktLJFdmyeY7ZQ/edit?usp=sharing
-5. Demo Video
-Demo Video Link: [https://drive.google.com/file/d/1-k-BZCXMZdgbAOG3FOTzSVX8njHLcuIi/view?usp=sharing]
-The demonstration covers the following scenarios:
-Google Sheets → Google Contacts: Add a contact to Google Sheets, run the synchronization, and verify that the contact appears in Google Contacts.
-Google Contacts → Google Sheets: Add or update a contact in Google Contacts, run the synchronization, and verify that the details appear correctly in Google Sheets.
-6. Conclusion
-This project demonstrates a two-way contact synchronization workflow that reduces manual data entry and helps maintain consistent contact information across Google Sheets and Google Contacts. The implementation can be extended with automatic triggers, error handling, and additional duplicate-detection rules.
+## Features
 
+- **Two-Way Synchronization:** Transfer contact information between Google Sheets and Google Contacts.
+- **Contact Management:** Manage names and phone numbers.
+- **Update Existing Contacts:** Update existing contact details where supported by the script.
+- **Duplicate Prevention:** Reduce duplicate contacts through contact matching.
+- **Automation:** Simplify contact management and reduce manual data entry.
+
+## Technologies Used
+
+- Google Sheets
+- Google Apps Script
+- Google Contacts
+- Google People API
+
+## Project Structure
+
+```text
+google-sheets-google-contacts-sync/
+├── Code.gs
+└── README.md
+```
+
+## Setup Instructions
+
+1. Create a Google Sheet with columns for contact names and phone numbers, matching the source code.
+2. Open **Extensions → Apps Script**.
+3. Add the code from `Code.gs` to the Apps Script editor.
+4. Enable the required Google People API service and configure permissions as required by the script.
+5. Save the project and authorize access to your Google account.
+6. Run the synchronization functions.
+7. Verify the results in both Google Sheets and Google Contacts.
+
+## How to Test
+
+1. Add a test contact to Google Sheets and run the Sheet-to-Contacts synchronization.
+2. Check Google Contacts to confirm that the contact was added or updated.
+3. Add a test contact in Google Contacts and run the Contacts-to-Sheet synchronization.
+4. Check Google Sheets to confirm that the contact information was imported correctly.
+
+## Demo Video
+
+**Demo Link:** https://drive.google.com/file/d/1-k-BZCXMZdgbAOG3FOTzSVX8njHLcuIi/view?usp=sharing.
+
+The demonstration should show both synchronization directions.
+
+## Source Code
+
+The source code is available in this GitHub repository in the `Code.gs` file.
+
+## Author
+
+**Dhaniklal Kumar**
