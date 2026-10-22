@@ -44,6 +44,13 @@ google-sheets-google-contacts-sync/
 3. Add a test contact in Google Contacts and run the Contacts-to-Sheet synchronization.
 4. Check Google Sheets to confirm that the contact information was imported correctly.
 
+## GitHub Repository: [https://github.com/Dhaniklal711/google-sheets-google-contacts-sync]   
+
+## Google Sheet Link-
+https://docs.google.com/spreadsheets/d/1dgZ95MPm2izzz4KkHnVjPKDcEHlTNLktLJF
+
+dmyeY7ZQ/edit?usp=sharing
+
 ## Demo Video
 
 **Demo Link:** https://drive.google.com/file/d/1-k-BZCXMZdgbAOG3FOTzSVX8njHLcuIi/view?usp=sharing.
